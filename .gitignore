@@ -25,3 +25,6 @@ replay_pid*
 
 # Arquivos temporários
 /temp
+
+# Arquivos e pastas de configuração de IDEs
+.idea/*
