@@ -23,9 +23,9 @@
 hs_err_pid*
 replay_pid*
 
-# Arquivos temporários
+# Temporary files
 /temp
 /src/temp
 
-# Arquivos e pastas de configuração de IDEs
+# IDE configuration files and folders
 .idea/*
