@@ -29,3 +29,5 @@ replay_pid*
 
 # IDE configuration files and folders
 .idea/*
+/numeros.txt
+/texto.txt
