@@ -1,24 +1,24 @@
-package aulas.aula09.exemplo03;
+package aulas.aula10.exemplo04;
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class EscritaLinhaTexto {
+public class EscritaNumero {
 
     static void main(String[] args) {
-        String caminhoArquivo = "texto.txt";
+        String caminhoArquivo = "numeros.txt";
         FileWriter fluxo = null;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um texto: ");
-        String texto = scanner.nextLine();
+        System.out.print("Digite um número: ");
+        int n = scanner.nextInt();
 
         try {
             fluxo = new FileWriter(caminhoArquivo, true);
-            fluxo.write(texto + "\n");
-            System.out.println("Texto gravado em arquivo!");
+            fluxo.write(n + "\n");
+            System.out.println("Número gravado em arquivo!");
             fluxo.close();
             scanner.close();
         } catch (FileNotFoundException e) {

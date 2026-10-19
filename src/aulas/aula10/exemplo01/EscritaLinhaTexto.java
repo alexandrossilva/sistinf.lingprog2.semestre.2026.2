@@ -1,4 +1,4 @@
-package aulas.aula09.exemplo01;
+package aulas.aula10.exemplo01;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
