@@ -3,7 +3,6 @@ package aulas.aula11.exemplo03;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 // Escrita de caracteres em arquivo de texto usando a classe PrintWriter
